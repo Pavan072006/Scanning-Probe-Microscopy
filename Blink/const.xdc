@@ -1,0 +1,1 @@
+set_property -dict {PACKAGE_PIN R14 IOSTANDARD LVCMOS33} [get_ports led_0]
