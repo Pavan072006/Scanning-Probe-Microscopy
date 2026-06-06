@@ -14,12 +14,14 @@ This project demonstrates an LED blinking system on a PYNQ-Zynq FPGA board using
 ---
 
 ## Project Files
+- `Blink.ipynb` → Jupyter Notebook for control  
 - `Blink_wrapper.bit` → FPGA bitstream  
 - `Blink_wrapper.hwh` → PYNQ hardware metadata  
-- `Blink.ipynb` → Jupyter Notebook for control  
-- `Blink_wrapper.v` → Top-level wrapper module  
-- `PTN.v` → Custom RTL for LED logic  
+- `Blink_wrapper.v` → Top-level wrapper module
+- `Block Diagram.png` → Vivado system architecture diagram showing PS–PL communication through AXI BRAM for LED control
 - `const.xdc` → FPGA pin constraints  
+- `PTN.v` → Custom RTL for LED logic  
+
 
 ---
 
