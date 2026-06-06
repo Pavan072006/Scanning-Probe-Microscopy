@@ -16,10 +16,10 @@ This project demonstrates an LED blinking system on a PYNQ-Zynq FPGA board using
 ## Project Files
 - `Blink_wrapper.bit` → FPGA bitstream  
 - `Blink_wrapper.hwh` → PYNQ hardware metadata  
-- `blink_demo.ipynb` → Jupyter Notebook for control  
+- `Blink.ipynb` → Jupyter Notebook for control  
 - `Blink_wrapper.v` → Top-level wrapper module  
-- `blink.v` → Custom RTL for LED logic  
-- `constraints.xdc` → FPGA pin constraints  
+- `PTN.v` → Custom RTL for LED logic  
+- `const.xdc` → FPGA pin constraints  
 
 ---
 
